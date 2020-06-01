@@ -1,0 +1,25 @@
+.voteCount {
+  font-size: 1rem;
+  margin: 0 0.9rem 0 0;
+  white-space: nowrap;
+  &.lessVotes {
+    color: inherit;
+  }
+  &.mediumVotes {
+    color: #aa4400;
+  }
+  &.extraVotes {
+    color: #ff6502;;
+  }
+  &:after {
+    content: '';
+    margin-left: 3px;
+    position: relative;
+    bottom: 3px;
+    display: inline-block;
+    border: 8px solid transparent;
+    border-bottom-color: #999;
+    border-left-width: 6px;
+    border-right-width: 6px;
+  }
+}
