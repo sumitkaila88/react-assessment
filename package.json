@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "heroku-postbuild": "npm install && npm run start"
+    "heroku-postbuild": "npm install && npm run dev"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
